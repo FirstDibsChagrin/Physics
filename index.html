@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Force &amp; Field — AP Physics C Self-Study</title>
+<meta name="description" content="Interactive self-study companion for AP Physics C: Mechanics and AP Physics C: Electricity & Magnetism. Simulations, visuals, and practice for every CED topic.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;600;700&family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="vendor/katex/katex.min.css">
+<script defer src="vendor/katex/katex.min.js"></script>
+<script defer src="vendor/katex/contrib/auto-render.min.js"></script>
+<link rel="stylesheet" href="css/style.css">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='80' font-size='80'>⚛️</text></svg>">
+</head>
+<body>
+<div class="bg-glow bg-glow-1"></div>
+<div class="bg-glow bg-glow-2"></div>
+
+<header class="site-header">
+  <a class="brand" href="#/">
+    <span class="brand-mark">⚛</span>
+    <span class="brand-name">Force <em>&amp;</em> Field</span>
+  </a>
+  <nav class="site-nav">
+    <a href="#/course/mech" data-nav="mech">Mechanics</a>
+    <a href="#/course/em" data-nav="em">E&amp;M</a>
+    <button class="nav-search-btn" id="searchBtn" title="Search topics ( / )">
+      <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><line x1="21" y1="21" x2="16.5" y2="16.5"/></svg>
+      <span>Search</span><kbd>/</kbd>
+    </button>
+  </nav>
+</header>
+
+<main id="app"></main>
+
+<footer class="site-footer">
+  <p>Built for self-studying <strong>AP Physics C: Mechanics</strong> and <strong>AP Physics C: E&amp;M</strong> — structured around the official College Board CED units and topics.</p>
+  <p class="fine">AP® is a registered trademark of the College Board, which was not involved in the production of this site.</p>
+</footer>
+
+<div class="search-overlay" id="searchOverlay" hidden>
+  <div class="search-panel">
+    <input type="text" id="searchInput" placeholder="Search topics… e.g. ‘Gauss’, ‘7.3’, ‘momentum’" autocomplete="off">
+    <div class="search-results" id="searchResults"></div>
+  </div>
+</div>
+
+<script src="js/plot.js"></script>
+<script src="js/simcore.js"></script>
+<script src="js/sims-mech.js"></script>
+<script src="js/sims-em.js"></script>
+<script src="data/mech-u1.js"></script>
+<script src="data/mech-u2.js"></script>
+<script src="data/mech-u3.js"></script>
+<script src="data/mech-u4.js"></script>
+<script src="data/mech-u5.js"></script>
+<script src="data/mech-u6.js"></script>
+<script src="data/mech-u7.js"></script>
+<script src="data/em-u8.js"></script>
+<script src="data/em-u9.js"></script>
+<script src="data/em-u10.js"></script>
+<script src="data/em-u11.js"></script>
+<script src="data/em-u12.js"></script>
+<script src="data/em-u13.js"></script>
+<script src="js/app.js"></script>
+</body>
+</html>
